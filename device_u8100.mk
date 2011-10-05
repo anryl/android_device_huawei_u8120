@@ -23,9 +23,9 @@ $(call inherit-product, device/common/gps/gps_eu_supl.mk)
 DEVICE_PACKAGE_OVERLAYS += device/huawei/u8100/overlay
 
 # Discard inherited values and use our own instead.
-PRODUCT_NAME := huawei_u8100
-PRODUCT_DEVICE := u8100
-PRODUCT_MODEL := Huawei U8100
+PRODUCT_NAME := huawei_u8120
+PRODUCT_DEVICE := u8120
+PRODUCT_MODEL := Huawei U8120
 
 ifeq ($(TARGET_PREBUILT_KERNEL),)
 	LOCAL_KERNEL := device/huawei/u8100/prebuilt/kernel
