@@ -40,8 +40,8 @@ PRODUCT_PACKAGES += \
     librs_jni \
     libOmxCore \
     libOmxVidEnc \
-    gps.u8100 \
-    copybit.u8100 \
+    gps.u8120 \
+    copybit.u8120 \
     lights.msm7k \
     rzscontrol \
     U8100Parts
@@ -73,8 +73,8 @@ PRODUCT_COPY_FILES += \
 
 # Init files
 PRODUCT_COPY_FILES += \
-    device/huawei/u8100/prebuilt/init.u8100.rc:root/init.u8100.rc \
-    device/huawei/u8100/prebuilt/ueventd.u8100.rc:root/ueventd.u8100.rc
+    device/huawei/u8100/prebuilt/init.u8120.rc:root/init.u8120.rc \
+    device/huawei/u8100/prebuilt/ueventd.u8120.rc:root/ueventd.u8120.rc
 
 #Kernel Modules
 PRODUCT_COPY_FILES += \
