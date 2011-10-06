@@ -13,6 +13,7 @@ bin/hci_qcomm_init
 
 lib/hw/gralloc.msm7k.so
 lib/hw/sensors.default.so
+lib/hw/gps.u8120.so
 
 lib/libaudioeq.so
 lib/libcamera.so

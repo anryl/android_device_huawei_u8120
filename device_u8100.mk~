@@ -151,8 +151,8 @@ PRODUCT_COPY_FILES += \
 # Hardware drivers
 PRODUCT_COPY_FILES += \
     vendor/huawei/u8100/proprietary/gralloc.msm7k.so:system/lib/hw/gralloc.msm7k.so \
-    vendor/huawei/u8100/proprietary/sensors.default.so:system/lib/hw/sensors.default.so
-
+    vendor/huawei/u8100/proprietary/sensors.default.so:system/lib/hw/sensors.default.so \
+    vendor/huawei/u8100/proprietary/gps.u8120.so:system/lib/hw/gps.u8120.so
 # Sensors
 PRODUCT_COPY_FILES += \
     vendor/huawei/u8100/proprietary/akmd2:system/bin/akmd2
@@ -202,7 +202,7 @@ PRODUCT_COPY_FILES += \
     device/huawei/u8100/prebuilt/audio/notifications/sms1.ogg:system/media/audio/notifications/sms1.ogg \
     device/huawei/u8100/prebuilt/audio/notifications/sms2.ogg:system/media/audio/notifications/sms2.ogg \
     device/huawei/u8100/prebuilt/audio/notifications/sms3.ogg:system/media/audio/notifications/sms3.ogg \
-    device/huawei/u8100/prebuilt/audio/ringtones/WavinFlag.ogg:system/media/audio/ringtones/WaivinFlag.ogg 
+    device/huawei/u8100/prebuilt/audio/ringtones/WavinFlag.ogg:system/media/audio/ringtones/WavinFlag.ogg 
 
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.config.ringtone=WavinFlag.ogg \

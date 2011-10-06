@@ -13,7 +13,6 @@ bin/hci_qcomm_init
 
 lib/hw/gralloc.msm7k.so
 lib/hw/sensors.default.so
-lib/hw/gps.u8120.so
 
 lib/libaudioeq.so
 lib/libcamera.so
@@ -60,7 +59,7 @@ etc/init.qcom.bt.sh
 "
 
 for FILE in $FILES; do
-    adb pull system/$FILE ../../../vendor/huawei/u8100/proprietary/
+    unzip -j -o ../../../u8100_update.zip system/$FILE -d ../../../vendor/huawei/u8100/proprietary/
 done
 
 chmod 755 ../../../vendor/huawei/u8100/proprietary/akmd2

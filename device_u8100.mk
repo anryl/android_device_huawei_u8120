@@ -44,7 +44,7 @@ PRODUCT_PACKAGES += \
     copybit.u8120 \
     lights.msm7k \
     rzscontrol \
-    U8100Parts
+    U8120Parts
 
 # Gallery 2D
 PRODUCT_PACKAGES += Gallery
@@ -151,8 +151,8 @@ PRODUCT_COPY_FILES += \
 # Hardware drivers
 PRODUCT_COPY_FILES += \
     vendor/huawei/u8100/proprietary/gralloc.msm7k.so:system/lib/hw/gralloc.msm7k.so \
-    vendor/huawei/u8100/proprietary/sensors.default.so:system/lib/hw/sensors.default.so
-
+    vendor/huawei/u8100/proprietary/sensors.default.so:system/lib/hw/sensors.default.so \
+    vendor/huawei/u8100/proprietary/gps.u8120.so:system/lib/hw/gps.u8120.so
 # Sensors
 PRODUCT_COPY_FILES += \
     vendor/huawei/u8100/proprietary/akmd2:system/bin/akmd2

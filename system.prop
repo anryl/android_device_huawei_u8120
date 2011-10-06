@@ -21,10 +21,3 @@ dalvik.vm.heapsize=24m
 ro.compcache.default=18
 ro.com.google.locationfeatures=1
 
-
-#
-# ADDITIONAL_BUILD_PROPERTIES
-#
-ro.config.ringtone=WavinFlag.ogg
-ro.config.notification_sound=sms2.ogg
-ro.config.alarm_alert=NoFair.ogg
