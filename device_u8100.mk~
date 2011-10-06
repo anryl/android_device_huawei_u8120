@@ -202,7 +202,7 @@ PRODUCT_COPY_FILES += \
     device/huawei/u8100/prebuilt/audio/notifications/sms1.ogg:system/media/audio/notifications/sms1.ogg \
     device/huawei/u8100/prebuilt/audio/notifications/sms2.ogg:system/media/audio/notifications/sms2.ogg \
     device/huawei/u8100/prebuilt/audio/notifications/sms3.ogg:system/media/audio/notifications/sms3.ogg \
-    device/huawei/u8100/prebuilt/audio/ringtones/WavinFlag.ogg:system/media/audio/ringtones/WavinFlag.ogg 
+    device/huawei/u8100/prebuilt/audio/ringtones/WavinFlag.ogg:system/media/audio/ringtones/WaivinFlag.ogg 
 
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.config.ringtone=WavinFlag.ogg \

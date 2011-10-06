@@ -1,5 +1,5 @@
 #
-# system.prop for u8120
+# system.prop for u8100
 #
 
 ro.sf.lcd_density=120
@@ -22,9 +22,3 @@ ro.compcache.default=18
 ro.com.google.locationfeatures=1
 
 
-#
-# ADDITIONAL_BUILD_PROPERTIES
-#
-ro.config.ringtone=WavinFlag.ogg
-ro.config.notification_sound=sms2.ogg
-ro.config.alarm_alert=NoFair.ogg
