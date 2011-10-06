@@ -15,5 +15,5 @@
 #
 
 ifeq ($(TARGET_DEVICE),u8100)
-    include $(call all-named-subdir-makefiles, libaudio libcopybit U8100Parts U8120Parts tccgetserial)
+    include $(call all-named-subdir-makefiles, libaudio libcopybit U8100Parts)
 endif
