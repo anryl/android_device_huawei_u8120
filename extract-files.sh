@@ -1,7 +1,7 @@
 #!/bin/sh
-# Extract prebuilt libraries (from a working device) needed for the U8100
+# Extract prebuilt libraries (from a working device) needed for the U8120
 
-mkdir -p ../../../vendor/huawei/u8100/proprietary
+mkdir -p ../../../vendor/huawei/u8120/proprietary
 
 FILES="
 bin/akmd2
@@ -60,12 +60,12 @@ etc/init.qcom.bt.sh
 "
 
 for FILE in $FILES; do
-    adb pull system/$FILE ../../../vendor/huawei/u8100/proprietary/
+    adb pull system/$FILE ../../../vendor/huawei/u8120/proprietary/
 done
 
-chmod 755 ../../../vendor/huawei/u8100/proprietary/akmd2
-chmod 755 ../../../vendor/huawei/u8100/proprietary/modempre
-chmod 755 ../../../vendor/huawei/u8100/proprietary/oem_rpc_svc
-chmod 755 ../../../vendor/huawei/u8100/proprietary/qmuxd
-chmod 755 ../../../vendor/huawei/u8100/proprietary/rild
-chmod 755 ../../../vendor/huawei/u8100/proprietary/hci_qcomm_init
+chmod 755 ../../../vendor/huawei/u8120/proprietary/akmd2
+chmod 755 ../../../vendor/huawei/u8120/proprietary/modempre
+chmod 755 ../../../vendor/huawei/u8120/proprietary/oem_rpc_svc
+chmod 755 ../../../vendor/huawei/u8120/proprietary/qmuxd
+chmod 755 ../../../vendor/huawei/u8120/proprietary/rild
+chmod 755 ../../../vendor/huawei/u8120/proprietary/hci_qcomm_init

@@ -20,7 +20,7 @@
 USE_CAMERA_STUB := false
 
 # inherit from the proprietary version
--include vendor/huawei/u8100/BoardConfigVendor.mk
+-include vendor/huawei/u8120/BoardConfigVendor.mk
 
 # Camera
 BOARD_USE_FROYO_LIBCAMERA := true
@@ -33,8 +33,8 @@ TARGET_CPU_ABI2 := armeabi
 TARGET_CPU_ABI := armeabi-v6j
 
 # Target properties
-TARGET_BOOTLOADER_BOARD_NAME := u8100
-# TARGET_OTA_ASSERT_DEVICE := u8100,u8110,u8120,ascend
+TARGET_BOOTLOADER_BOARD_NAME := u8120
+TARGET_OTA_ASSERT_DEVICE := u8120,u8110,u8100,ascend
 
 # Target information
 TARGET_NO_BOOTLOADER := true
@@ -53,13 +53,13 @@ BOARD_USES_QCOM_LIBRPC := true
 # GPS
 BOARD_USES_QCOM_GPS := true
 BOARD_VENDOR_QCOM_GPS_LOC_API_AMSS_VERSION := 1240
-BOARD_VENDOR_QCOM_GPS_LOC_API_HARDWARE := u8100
+BOARD_VENDOR_QCOM_GPS_LOC_API_HARDWARE := u8120
 
 # Browser
 JS_ENGINE := v8
 
 # USB mass storage
-BOARD_CUSTOM_USB_CONTROLLER := ../../device/huawei/u8100/UsbController.cpp
+BOARD_CUSTOM_USB_CONTROLLER := ../../device/huawei/u8120/UsbController.cpp
 BOARD_USE_USB_MASS_STORAGE_SWITCH := true
 TARGET_USE_CUSTOM_LUN_FILE_PATH := "/sys/devices/platform/msm_hsusb/gadget/lun"
 BOARD_UMS_LUNFILE := "/sys/devices/platform/msm_hsusb/gadget/lun0/file"
@@ -78,7 +78,7 @@ TARGET_PROVIDES_LIBAUDIO := true
 # Graphics
 TARGET_HARDWARE_3D := false
 BOARD_HAS_LIMITED_EGL := true
-BOARD_EGL_CFG := device/huawei/u8100/prebuilt/lib/egl/egl.cfg
+BOARD_EGL_CFG := device/huawei/u8120/prebuilt/lib/egl/egl.cfg
 
 # WiFI
 BOARD_WPA_SUPPLICANT_DRIVER := AWEXT
@@ -91,7 +91,7 @@ ENABLE_JSC_JIT := true
 
 # Kernel
 BOARD_KERNEL_BASE := 0x00200000
-BOARD_KERNEL_CMDLINE := mem=211M console=ttyMSM2,115200n8 androidboot.hardware=u8100
+BOARD_KERNEL_CMDLINE := mem=211M console=ttyMSM2,115200n8 androidboot.hardware=u8120
 BOARD_KERNEL_PAGESIZE := 4096
 
 #cat /proc/mtd

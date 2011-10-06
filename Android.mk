@@ -14,6 +14,6 @@
 # limitations under the License.
 #
 
-ifeq ($(TARGET_DEVICE),u8100)
+ifeq ($(TARGET_DEVICE),u8120)
     include $(call all-named-subdir-makefiles, libaudio libcopybit U8120Parts tccgetserial)
 endif
