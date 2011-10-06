@@ -12,7 +12,7 @@ import java.io.InputStreamReader;
 import java.io.IOException;
 import java.util.StringTokenizer;
 
-public class U8100PartsStartup extends BroadcastReceiver
+public class U8120PartsStartup extends BroadcastReceiver
 {
    private boolean hasdata = false;
    private int xoffset, yoffset, xscale, yscale;

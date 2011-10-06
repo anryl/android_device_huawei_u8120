@@ -1,4 +1,4 @@
-package com.cyanogenmod.U8100Parts;
+package com.cyanogenmod.U8120Parts;
 
 import android.app.Activity;
 import android.graphics.Canvas;
@@ -16,7 +16,7 @@ import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
-public class U8100Parts extends Activity {
+public class U8120Parts extends Activity {
    final private static String TAG = "U8120Parts";
 
    private View view;
