@@ -44,7 +44,6 @@ PRODUCT_PACKAGES += \
     copybit.u8120 \
     lights.msm7k \
     rzscontrol \
-    U8100Parts \
     U8120Parts \
     tccgetserial
 

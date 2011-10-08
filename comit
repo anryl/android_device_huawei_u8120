@@ -1,0 +1,11 @@
+#! /bin/bash
+xyz=$1
+if [ "$1" = "" ]
+then 
+  echo Insert commit message
+  wait
+else
+  git add -A
+  git commit -m \"$1\"
+  git push origin master
+fi
