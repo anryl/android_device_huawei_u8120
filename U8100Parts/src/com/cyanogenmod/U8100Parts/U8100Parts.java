@@ -1,4 +1,4 @@
-package com.cyanogenmod.U8120Parts;
+package com.cyanogenmod.U8100Parts;
 
 import android.app.Activity;
 import android.graphics.Canvas;
@@ -16,8 +16,8 @@ import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
-public class U8120Parts extends Activity {
-   final private static String TAG = "U8120Parts";
+public class U8100Parts extends Activity {
+   final private static String TAG = "U8100Parts";
 
    private View view;
 
@@ -41,7 +41,7 @@ public class U8120Parts extends Activity {
       super.onCreate(savedInstanceState);
       // Read current values
       final int xoffset = (readValue("xoffset")*240+480)/960;
-      final int yoffset = (readValue("yoffset")*320+460)/920; 
+      final int yoffset = (readValue("yoffset")*320+460)/920;
       final int xscale = readValue("xscale");
       final int yscale = readValue("yscale");
 
@@ -95,7 +95,7 @@ public class U8120Parts extends Activity {
                new_yoffset += 50*65536-rawy1*new_yscale;
                new_yoffset += 270*65536-rawy2*new_yscale;
                new_yoffset /= 2;
-               new_yoffset = (new_yoffset*920+160)/320;  
+               new_yoffset = (new_yoffset*920+160)/320;
                // Pass new calibration to kernel
                writeValue("xoffset", new_xoffset);
                writeValue("yoffset", new_yoffset);

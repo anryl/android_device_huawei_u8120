@@ -25,7 +25,7 @@ DEVICE_PACKAGE_OVERLAYS += device/huawei/u8120/overlay
 # Discard inherited values and use our own instead.
 PRODUCT_NAME := huawei_u8120
 PRODUCT_DEVICE := u8120
-PRODUCT_MODEL := Huawei U8120
+PRODUCT_MODEL := u8120
 
 ifeq ($(TARGET_PREBUILT_KERNEL),)
 	LOCAL_KERNEL := device/huawei/u8120/prebuilt/kernel
@@ -44,7 +44,9 @@ PRODUCT_PACKAGES += \
     copybit.u8120 \
     lights.msm7k \
     rzscontrol \
-    U8120Parts
+    U8100Parts \
+    U8120Parts \
+    tccgetserial
 
 # Gallery 2D
 PRODUCT_PACKAGES += Gallery
