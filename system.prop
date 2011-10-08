@@ -16,8 +16,9 @@ wifi.supplicant_scan_interval=60
 ro.telephony.default_network=0
 ro.opengles.version=65536
 dalvik.vm.dexopt-flags=m=y
-dalvik.vm.execution-mode=int:jit
+# dalvik.vm.execution-mode=int:jit
+dalvik.vm.execution-mode=int:fast
 dalvik.vm.heapsize=24m
-ro.compcache.default=18
+ro.compcache.default=26
 ro.com.google.locationfeatures=1
-
+ro.config.hwfeature_wakeupkey=0

@@ -9,6 +9,9 @@
     <!-- Notification LED can show any color -->
     <bool name="has_rgb_notification_led">false</bool>
 
+    <!-- Notification LED has single color only -->
+    <bool name="has_single_notification_led">false</bool>
+
     <!-- Notification LED can show green and amber only -->
     <bool name="has_dual_notification_led">false</bool>
 
@@ -17,5 +20,10 @@
 
     <!-- Whether or not to display search button settings -->
     <bool name="has_search_button">false</bool>
-</resources>
 
+    <!--Whether or not  -->
+    <bool name="has_backtrack_minipad">false</bool>
+
+    <bool name="has_envelope_key">false</bool>
+    <bool name="has_explorer_key">false</bool>
+</resources>
