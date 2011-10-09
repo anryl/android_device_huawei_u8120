@@ -195,7 +195,7 @@ PRODUCT_COPY_FILES += \
 
 # Other
 PRODUCT_COPY_FILES += \
-    device/huawei/u8120/gps.cfg:system/etc/gps.cfg \
+    device/huawei/u8120/gps.conf:system/etc/gps.conf \
     device/huawei/u8120/prebuilt/lib/egl/egl.cfg:system/lib/egl/egl.cfg \
     device/huawei/u8120/prebuilt/etc/vold.fstab:system/etc/vold.fstab \
     device/huawei/u8120/prebuilt/audio/alarms/NoFair.ogg:system/media/audio/alarms/NoFair.ogg \
